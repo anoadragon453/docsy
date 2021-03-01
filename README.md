@@ -1,5 +1,16 @@
 # Docsy
 
+=======
+[![Project status: active – The project has reached a stable, usable state and is being actively developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Project releases](https://img.shields.io/github/release/google/docsy)](https://github.com/google/docsy/releases)
+[![Project build Status](https://badges.netlify.com/api/docsydocs.svg?branch=master)](https://app.netlify.com/sites/docsydocs/deploys)
+[![Project contributors](https://img.shields.io/github/contributors/google/docsy)](https://github.com/google/docsy/graphs/contributors)
+[![Project license](https://img.shields.io/github/license/google/docsy)](https://github.com/google/docsy/blob/main/LICENSE)
+
+## 🚧 WARNING 🚧 : `main` is under development and potentially unstable! Use official Docsy [releases].
+
+**Note: This is [docsy](https://github.com/google/docsy) v0.7.1 with remote js/font files replaced with local copies.**
+
 Docsy is a [Hugo](https://gohugo.io) theme for technical documentation sets,
 providing simple navigation, site structure, and more.
 
@@ -22,14 +33,14 @@ The following are basic prerequisites for using Docsy in your site:
   $ npm install --save-dev autoprefixer
   $ npm install --save-dev postcss-cli
   ```
-  
+
   Starting in [version 8 of `postcss-cli`](https://github.com/postcss/postcss-cli/blob/master/CHANGELOG.md),
   you must also separately install `postcss`:
 
   ```bash
   npm install -D postcss
   ```
-  
+
 Any additional prerequisites depend on the [installation option](https://www.docsy.dev/docs/get-started/#installation-options)
 you choose. We recommend using Docsy as a Hugo module, which requires that
 you have the `go` language installed in addition to Hugo and PostCSS.
